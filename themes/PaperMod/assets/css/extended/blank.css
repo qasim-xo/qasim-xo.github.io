@@ -3,3 +3,20 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    /* Align image and text vertically */
+    gap: 15px;
+    /* Space between image and text */
+}
+
+.profile-picture {
+    width: 100px;
+    /* Adjust size as needed */
+    height: 100px;
+    border-radius: 50%;
+    /* Make it circular */
+}
