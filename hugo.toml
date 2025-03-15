@@ -1,0 +1,36 @@
+baseURL = "https://qasimdev.github.io/"
+languageCode = "en-us"
+title = "Mohammad Qasim"
+theme = "PaperMod"
+
+[params]
+
+  [params.profileMode]
+    enabled = true
+    title = "Hey, I am Mohammad Qasim 👋" # optional, default will be site title
+    subtitle = "*Hey there! ✨ I'm a Flutter & Android developer who loves building cool, high-performance apps. Whether it’s a sleek UI or a complex backend, I enjoy turning ideas into smooth, scalable experiences. Also, if you ever want to chat about thriller movies or hip-hop music, I’m all in!*"
+    imageUrl = "https://media.licdn.com/dms/image/v2/D4E03AQFyCFvNya1icQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1708272636597?e=1747267200&v=beta&t=AkYsLAYCFrakWAILwsF_mO0JzJ0UkO1EWMZ32OAl6_s" # optional
+    imageWidth = 120 # custom size
+    imageHeight = 120 # custom size
+
+   
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:devmohdqasim@gmail.com"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/qasimxo/"
+
+    [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/qasim-xo"
+
+    [[params.socialIcons]]
+    name = "letterboxd"
+    url = "https://letterboxd.com/qasimdx/"
+
+    [[params.socialIcons]]
+    name = "leetcode"
+    url = "https://leetcode.com/u/qasimzexal/"
