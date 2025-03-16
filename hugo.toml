@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Mohammad Qasim"
 pageSize = 5
 theme = "PaperMod"
-mainsections = "posts"
+sectionPagesMenu = "home"
 
 [params]
   [params.homeInfoParams]
@@ -37,25 +37,12 @@ mainsections = "posts"
     name = "twitter"
     url = "https://x.com/devqasim_"
 
-
-  [languages]
-
-  [languages.en]
-  languageName = "English"
-  weight = 1
-  
-  
-    [languages.en.menu]
-  
-      
-      [[languages.en.menu.main]]
-      name = "Posts"
-      url = "posts/"
-      weight = 10
-      
-    
-
-
-
-
-
+[menu]
+[[menu.main]]
+  name = 'Posts'
+  url = '/'
+  weight = 10
+[[menu.main]]
+  name = 'About'
+  url = '/about'
+  weight = 20
